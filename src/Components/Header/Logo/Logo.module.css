@@ -1,0 +1,12 @@
+.wrapper {
+    margin-left: 5px;
+}
+
+.logo {
+    grid-area: l;
+    height: 40px;
+}
+
+a {
+    display: inline-block;
+}

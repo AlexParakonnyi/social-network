@@ -1,0 +1,32 @@
+@font-face {
+    font-family: -apple-system, 'Segoe UI', BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header {
+   background-color: #20232a;
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(130px, 200px) minmax(450px, 800px) minmax(120px, 200px);
+    grid-column-gap: 10px;
+    align-items: center;
+ }
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: antiquewhite;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.activeLink {
+    color: #dbf6fe
+}
+

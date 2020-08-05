@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    margin: 5px 0 0 0;
+}
+
+.head {
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 24px;
+    margin: 0 20px 0 0;
+}
+
+.but {
+    padding: 3px 7px;
+    border-radius: 5px;
+    background: darkolivegreen;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+}
+
+.but:hover {
+    background-color: darkslategray;
+}
