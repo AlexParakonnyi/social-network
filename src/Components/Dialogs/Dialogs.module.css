@@ -1,4 +1,8 @@
 .wrapper {
     background: #567cca;
-    color: green;
+    font-size: 20px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
 }

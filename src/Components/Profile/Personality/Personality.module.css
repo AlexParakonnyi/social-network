@@ -1,0 +1,34 @@
+.wrapper {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 4fr;
+}
+
+.description {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    background: #bbbbbb;
+    width: 100%;
+}
+
+.head {
+    font-weight: bold;
+    display: flex;
+    margin: 0 0 10px 0;
+}
+
+.wrapperPhoto img {
+    min-height: 150px;
+}
+
+.wrapInfo {
+    display: flex;
+    border-bottom: 2px solid #cccccc;
+    max-width: 250px;
+}
+
+.keyInfo {
+    width: 80px;
+}

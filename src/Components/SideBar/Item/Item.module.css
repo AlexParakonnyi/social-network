@@ -1,0 +1,17 @@
+.item {
+    margin: 10px 0;
+    font-size: 20px;
+    color: darkslategray;
+}
+
+.item>a {
+    color: darkblue;
+}
+
+.item>a:hover {
+    color: #567cca;
+}
+
+.item a.active {
+    color: lightcyan;
+}

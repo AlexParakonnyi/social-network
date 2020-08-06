@@ -2,20 +2,24 @@ import React, {Component} from "react";
 import s from "./HeaderBlock.module.css";
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Logo";
+import NavItem from "../NavItem/NavItem";
+import Search from "../Search/Search";
 
 class HeaderBlock extends Component {
     render() {
-        const {srcLogo = "", children} = this.props;
+        const items = ['Документация', 'Введение', 'Блог', 'Сообщество'];
+        const {srcLogo = ""} = this.props;
         return (
             <header className={s.header}>
-               <Logo src={srcLogo} className={s.logo}/>
-                <Nav className={s.navigation}>
-                    <a href="#">Документация</a>
-                    <a href="#">Введение</a>
-                    <a href="#">Блог</a>
-                    <a href="#">Сообщество</a>
+                <Logo src={srcLogo}/>
+                <Nav>
+                    {
+                        items.map((el, index) => {
+                            return <NavItem key={index + el} name={el}/>
+                        })
+                    }
                 </Nav>
-                <input type="text" placeholder="Поиск" className={s.search}/>
+                <Search />
             </header>
         )
     }

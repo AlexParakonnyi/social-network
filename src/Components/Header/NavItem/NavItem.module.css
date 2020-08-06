@@ -1,0 +1,30 @@
+.item {
+    /*color: antiquewhite;*/
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 20px;
+}
+
+/*.item:hover {
+    color: #4a93cc;
+    transition: 0.5s;
+}*/
+
+.item::before {
+    content: "";
+    position: absolute;
+    left: -3px;
+    bottom: -3px;
+    right: -3px;
+    border-bottom: 2px solid #4a93cc;
+    transform-origin: center;
+    transform: scale(0);
+    transition: 0.4s;
+}
+
+.item:hover::before {
+    transform: scale(1);
+}

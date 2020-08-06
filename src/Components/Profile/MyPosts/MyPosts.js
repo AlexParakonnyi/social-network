@@ -19,7 +19,7 @@ class MyPosts extends Component {
                 <Post
                     ava={ava}
                     date={new Date(2018, 8, 20)}
-                    message={"Today is a hot weather. Isn't it?"}
+                    message={"It is hot weather today. Isn't it?"}
                 />
             </div>
         );

@@ -1,0 +1,12 @@
+.link {
+    font-size: 18px;
+    color: #282c34;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.active {
+    color: antiquewhite;
+}
