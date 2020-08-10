@@ -2,7 +2,7 @@ import React from "react";
 
 const Music = () => (
     <div>
-        Music
+        I like Music
     </div>
 );
 
